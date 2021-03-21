@@ -1,0 +1,18 @@
+[package]
+name = "ossia"
+version = "0.1.0"
+authors = ["Sergio Sánchez Ramírez <sergio.sanchez.ramirez@bsc.es>"]
+edition = "2018"
+build = "build.rs"
+
+[dependencies]
+enum-repr = "0.2"
+num_enum = "0.5"
+libffi = "1.0"
+
+[features]
+# libossia options
+
+[build-dependencies]
+bindgen = "0.57"
+cmake = "0.1"
